@@ -17,18 +17,34 @@ img {
   width: 100%;
 }
 
-.article {
+.header_article {
   position: relative;
   overflow: hidden;
 }
 
 
-.header {
+.kim_name {
   font-size: 80px;
-  color: white;
+  font-family: cursive;
   text-align: center;
   position: absolute;
   top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  background: linear-gradient(to left, white 60%, black 40%);
+-webkit-background-clip: text;
+color: transparent;
+}
+
+.kim_job {
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  position: absolute;
+  top: 30%;
   bottom: 0;
   left: 0;
   right: 0;
